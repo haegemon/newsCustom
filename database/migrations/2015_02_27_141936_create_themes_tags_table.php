@@ -12,7 +12,7 @@ class CreateThemesTagsTable extends Migration {
 	 */
 	public function up()
 	{
-        Schema::create('themes_tags', function(Blueprint $table)
+        Schema::create('theme_tag', function(Blueprint $table)
         {
             $table->increments('id');
             $table->integer('theme_id')->unsigned();
@@ -30,7 +30,7 @@ class CreateThemesTagsTable extends Migration {
 	 */
 	public function down()
 	{
-        Schema::drop('themes_tags');
+        Schema::drop('theme_tag');
 	}
 
 }

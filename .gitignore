@@ -4,3 +4,6 @@
 
 node_modules
 public/css/welcom.css.map
+vendor
+public/packages
+composer.lock

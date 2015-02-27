@@ -4,6 +4,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class ThemeTag extends Model {
 
-    protected $table = 'themes_tags';
+    protected $table = 'tag_theme';
 
 }
