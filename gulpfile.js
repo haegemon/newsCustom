@@ -12,6 +12,6 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.less('resources/assets/less/app.less');
+    mix.less('app.less');
     mix.less('welcom.less');
 });
